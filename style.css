@@ -42,3 +42,17 @@ body {
     right: 0;
     bottom: 0;  
 }
+
+.nav-link{
+    color: black;
+}
+
+.nav-list{
+    display: flex;
+    column-gap: 50px;
+   font-weight: 500;
+   font-size: 14px;
+}
+.nav-link.active{
+    color: #606060;
+}
