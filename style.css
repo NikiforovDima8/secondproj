@@ -19,6 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 76px;
 }
 
 .logo {
@@ -55,4 +56,30 @@ body {
 }
 .nav-link.active{
     color: #606060;
+}
+
+.header-row{
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.header-content{
+    max-width: 500px;
+    margin-top: 124px;
+}
+
+.header-title{
+font-weight: 600;
+font-size: 44px;
+line-height: 66px;
+}
+.header-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+.header-img img{
+max-width: 494px;
+max-height: 613px;
 }
