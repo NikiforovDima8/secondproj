@@ -83,3 +83,120 @@ line-height: 66px;
 max-width: 494px;
 max-height: 613px;
 }
+
+.container.active{
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+
+.section-row{
+    flex:1 1 0;
+    min-width: 315px;
+}
+.icons{
+max-width: 68px;
+max-height: 68px;
+}
+.title1{
+margin-top: 15px;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-transform: uppercase;
+
+}
+.text-section{
+margin-top: 10px;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+width: 370px;
+}
+
+.main{
+    background-color: #f1f1f1;
+   padding: 90px 0;
+}
+.container.portfolio{
+text-align: center;
+}
+
+.section-foto + .section-foto{
+margin-top: 90px;
+}
+.title12 h3{
+margin-bottom: 70px;
+font-weight: 600;
+font-size: 34px;
+line-height: 51px;
+text-align: center;
+}
+.image img{
+max-width: 930px;
+max-height: 500px;
+margin-bottom: 40px;
+
+}
+.link-portfolio h3 a{
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-decoration: underline;
+    line-height: 27px;
+}
+
+.container-footer{
+    text-align: center;
+}
+   
+.title-content h3{
+margin-top: 90px;
+font-weight: 600;
+font-size: 34px;
+line-height: 51px;
+margin-bottom: 40px;
+}
+.footer-text{
+margin-bottom: 48px;
+}
+.btn{
+display: inline-block;
+padding: 7px 22px;
+ border-radius: 30px;
+background-color: black;
+font-size: 18px;
+color: white;
+transition:background-color 0.2s ease-in,top 0.2s ease-in;
+}
+
+.btn:hover, .btn:focus{
+    background-color: rgb(41, 40, 40);
+}
+.btn:active{
+background-color: black;
+position: relative;
+top:1px;
+
+}
+.icons1{
+    display: flex;
+    column-gap: 62px;
+    justify-content: center;
+    margin-top: 80px;
+}
+.text-end{
+margin-top: 40px;
+color: #828282;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+margin-bottom: 90px;
+}
+
+.nav-button{
+    display: none;
+}

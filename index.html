@@ -6,13 +6,14 @@
         <title>Portfolio</title>
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="media.css">
     </head>
     <body>
         <header class="header">
             <div class="container">
                 <div class="header-nav">
                     <a href="#!" class="logo">Kelvin</a>
-                    <nav class="nav">
+                    <nav id="nav" class="nav open">
                         <ul class="nav-list">
                             <li class="nav-item">
                                 <a href="#!" class="nav-link active">Home</a>
@@ -30,13 +31,15 @@
                                 <a href="#!" class="nav-link">Contact</a>
                             </li>
                         </ul>
+                        <button id="nav-btn" class="nav-button">
+                            <img id="nav-btn-img" src="/img/NAV.svg" alt="nav">
+                        </button>
                     </nav>
                 </div>
                 <div class="header-row">
                     <div class="header-content">
                         <h1 class="header-title">
-                            Kelvin KramerDesigner <br />
-                            & Developer
+                            Kelvin Kramer <br />  <span>Designer & Developer</span>
                         </h1>
                         <p class="header-text">
                             I’m a portrait, fashion and lifestyle photographer
@@ -51,13 +54,127 @@
             </div>
         </header>
 
-        <section class="main">
-            <div class="container">
-                <div class="icons"> 
-                    <img src="/img/" alt="">
+        <section class="header-main">
+            <div class="container active">
+                <div class="section-row">
+                    <div class="icons">
+                        <img src="/img/graphic 1.svg" alt="graphic" />
+                    </div>
+                    <div class="title1">
+                        <h3 class="title-h3">UI/UX Design</h3>
+                    </div>
+                    <div class="text-section">
+                        <p>
+                            Our design is translated into comprehensive digital
+                            environments built on latest development standards.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-row">
+                    <div class="icons">
+                        <img src="/img/startup 1.svg" alt="startup" />
+                    </div>
+                    <div class="title1">
+                        <h3 class="title-h3">Development</h3>
+                    </div>
+                    <div class="text-section">
+                        <p>
+                            Our design is translated into comprehensive digital
+                            environments built on latest development standards.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-row">
+                    <div class="icons">
+                        <img src="/img/browser 1.svg" alt="browser" />
+                    </div>
+                    <div class="title1">
+                        <h3 class="title-h3">software testing</h3>
+                    </div>
+                    <div class="text-section">
+                        <p>
+                            Our design is translated into comprehensive digital
+                            environments built on latest development standards.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <main class="main">
+            <div class="container portfolio">
+                <div class="section-foto">
+                    <div class="title12">
+                        <h3>Portfolio</h3>
+                    </div>
+                    <div class="image">
+                        <img src="/img/sloy8.jpg" alt="sloy8" />
+                    </div>
+                    <div class="link-portfolio">
+                        <h3 class="link-portfolio-text">
+                            <a href="#!">Online fashion store - Homepage</a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="section-foto">
+                    <div class="image">
+                        <img src="/img/reebok_web.jpg" alt="reebok_web" />
+                    </div>
+                    <div class="link-portfolio">
+                        <h3 class="link-portfolio-text">
+                            <a href="#!">Reebok Store - Concept</a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="section-foto">
+                    <div class="image">
+                        <img src="/img/reebok_web (1).jpg" alt="reebok_web1" />
+                    </div>
+                    <div class="link-portfolio">
+                        <h3 class="link-portfolio-text">
+                            <a href="#!">Braun Landing Page - Concept</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </main>
         <script src="script.js"></script>
+
+        <footer class="footer">
+            <div class="container-footer">
+
+                    <div class="title-content">
+                        <h3>Contacts</h3>
+                    </div>
+                    <div class="footer-text">
+                        <p>Want to know more or just chat?<br> You are welcome!</p>
+                    </div>
+                    <div class="btn">
+                        <a href="#!" class="btn">Send message</a>
+                    </div>
+                    <div class="icons1">
+                        <a href="#!">
+                            <img src="/img/LinkedIn.svg" alt="in"
+                        /></a>
+                        <a href="#!">
+                            <img src="/img/Instargam.svg" alt="inst"
+                        /></a>
+                        <a href="#!">
+                            <img src="/img/Behance.svg" alt="be"
+                        /></a>
+                        <a href="#!">
+                            <img src="/img/Dribble.svg" alt="dr"
+                        /></a>
+                    </div>
+                    <div class="text-end">
+                        <p>Like me on <br>LinkedIn, Instagram, Behance, Dribble</p>
+                    </div>
+                </div>
+        
+        </footer>
     </body>
 </html>
